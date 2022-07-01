@@ -1,0 +1,6 @@
+For this final bootcamp project I have chosen to do a skincare recommender. The data used has been obtained through web scarping from the website cultbeauty.com. 
+Firts, I scarped the names, price and rating of their entire skincare selections and the I applied filters to the selection inorder to add features to the data set. In this way, each intion product obtained features such as vegan, cruelty free, skin type etc. 
+Once the data set was complete I cleaned it and added the brand to each produtc bsed on a list of brands scarped from the website. After that I transfored categorical an dnumerical data and applied k-means to form clusters. 
+Once each product had been assigned to a cluster I created a function to filter the entire data frame based on vegan, cruelty free and gluten free (the filtering options given to users of teh recommender) and nother function that provides the name of a produtc after the user imputs a name of a product they like. 
+I used these functions and data to create and app usting streamlit. The app allows the user to choose their non-negotiable filters and input a product they like and they receive a recommendation from the data frame. 
+I would like to improve the app with more data and improving the input process as right now it only recognises inputs that are exact to the product names in the data. 
